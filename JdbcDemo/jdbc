@@ -1,0 +1,30 @@
+JDBC: (Java Database Connectivity)(Specification)
+JDBC api (java.sql) (Connection, PreparedStatement, Statement,CallableStatement, ResutlSet, DriverManger)
+jdbc auto commit default feature( Transaction management)
+Jdbc Exception are checked exceptions.
+jdbc will support all the dabase vendors(Mysql, MSSQL, ORacle...etc...(RDBMS-->SQL-->))
+3. JDBC 4 types drivers for connecting the dabases
+	1. JDBC-ODBC driver, 2. Native API driver, 3. Network Protocal API driver, 4. Thin Driver
+
+4. five steps are there 
+	1. register the database driver
+	2. create the connection object by using drviermanager class
+	3. create the statemnt object
+	4. execute the queries
+	5. close the connection
+	
+	
+
+	
+executeQuery() for getting data , executeUpdate() for storing, updating, deleting 
+
+6. autoCommit
+
+7. CallableStatement
+
+GraphicEnvironment
+
+IN -->input to sp
+OUT --> output from sp
+INOUT -->Input and output
+Servlets

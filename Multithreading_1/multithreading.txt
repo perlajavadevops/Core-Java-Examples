@@ -1,0 +1,43 @@
+Multitask -- doing working parallel
+1. process based multi task
+	computers(CPU) --> each will saperate process
+	communications is high , weight, the performance , 
+2. thread based multi task
+
+what is thread? thread is small unit, whre it will separately(call stack)
+thread is lightweight. 
+multi thread share same memory(shared memory) (1MB).
+thread based --> we can't give a gaurante(execution of the multiple thread)
+context switiching 
+=====================
+how to create threads in java?
+2 ways we can create threads.
+a. by extending Thread class
+	--------
+	Thread th = new Thread();// New state
+	th.start();//start thread execution //Pause
+	run();//the run will execute internally  //Runnable state and Non-Runnable state
+	//terminated
+	
+	//Thread Life cycle: New State, Runnable state, Non-Runnable state, Terminated.
+b. an implementing with Runnable interface.
+
+types of threads: 2 types of threads are there: 1. user defined thread(normal threads) and daemon thread
+
+sleep(), join(), thread namings, thread priorities, deamon thread creation, syncronization (Lock or Monitoring)
+How many types of syncrhoniztio?
+1. Mutual Exclusive and 				2. Inter-thread-Communication(COoperation)
+We can achive this mutual 3 ways:			wait(), notify(), notifyAll();
+1. By syncronized mehtod (will be applied only on instance methods)
+	//apply the locking machnism on objects. 
+	//whatev logic in that method 
+2. syncronized block
+(on Objects Level)
+3. static syncronization
+(static syn will not apply on any objct level rather it will only class level)
+1.see without syncronsize
+
+//write a program to do producing and consuming example
+//INPUt and OUTPUT
+
+

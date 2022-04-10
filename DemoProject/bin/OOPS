@@ -1,0 +1,114 @@
+Object oriented program system(OOPS) or techinque or mehtodology:
+object, class, inheritance, abstraction, polymor, encaspulation:
+
+Object:   pen ( it is instance of an class) (blue print)
+class: one kind template where it will have all variables, methods, constructor ...
+
+Constructor: 
+cons is ntoh but it is one special mehtod. by using this cons we instializa the data of an object.
+how many types of con: 2 types: default con or 0-arg constr and parameterized constru
+what is the use of default construc: to provide default values of an object
+java compiler will provide this default constructor
+constr name should be class name
+constr does not have return tyep
+
+1. if we do not have any constr in our class then by default java compile will one default constructor 
+2. purpose of default con: to rpovi default values of an object
+
+//java comments:
+//
+
+===================
+Method Overloading: 
+within the same class if we have more than one method with the same method name is ntng m overloading
+Advatanges: 1. code resuability. 2. code optimization
+
+Rules: 1. either by method paremertes order 
+		2. no.of arguments within the method defination.
+
+Ex: 1+1= functionality
+
+add(int a, int b){
+	a+b;
+}
+
+add(int a, nt b , int c){
+
+	a+b+c;
+	
+}
+
+===============
+method overloing will comes under compile time polymorhship
+===========================================
+
+Practales: 
+
+==============
++ operator overloading
+
+1+1=2 //additon
+"abc"+"efg"= abcefg// concatination
+"manasi"+2 = manasi2
+1+1+"hello" = 11hello or 2hello?
+
+==============
+this key work we can't use for static members(methods, varialbes
+
+2 scopes: class level scope and object level scope
+			static memsbers			instance memebers
+			
+========================================
+Method Overriding: Inheritance: 
+the sub class(child, derived) will aquire the behaviour and properites from super(parent, Base) is nothing inheritance.
+Inheritance: IS-A relationship
+
+=====================================
+Super keyword means : will return super class object
+Uses of Super keyword: 
+1. we can call super class methods 
+2. we use super keyworkd for parent varaibles
+3. we use for consstructor
+===================
+Object
+Class
+Inheritance
+Polymor
+final keyword
+ varialbes, methods, class
+ 
+Abstraction: abstract and interface
+Encapsulation
+=========================
+what is poly
+types of polys? 2 types 
+1. compile time poly
+	method overloading
+2. runtime poly or dyanamic method dispactch or dyanmic ploy
+	ex: Method Overriding
+
+//private, protected, public, default access modifieri--->
+==========================================================================
+Abstraction:
+Hiding the implimentation(internal details) details and showing the functionality to the end user.
+Ex:Mobile
+Partialy abstraction(0% to 100%)
+Fully abstraction(100%)
+==========
+How we can achive?
+abstract class:
+the class defined with the 'abstract' keyword is nt abstract class
+rules: 1. atleast have 1 'abstract' method and abstract method will not have method body
+2. provid metohd body(implemetation) in a subclass
+3. we can't create abstract class object directly but by through the sub class we can create an object
+4. by using abstract we can achive partiall abstraction(
+5. abstract is kind of normal class only (we can defined a normal methods(concrete methods), constroc, normal variables)
+
+interface:
+1. interface is same abstract class but interface will have only abstract methods and public static final variables.
+3. for interface also we can't create object direclty 
+4. interface methods will impleteation in sub class
+5. interface can't have normal methods
+6. Interfaces will provide fully abstraction
+7. Interface will support mutliple inheritance.
+

@@ -1,0 +1,11 @@
+1. String 2 ways
+by string literala
+by new keyword
+
+String s1 = "Mahesh";//By string
+String s2 = new String("Mahesh");//
+
+/String immutable class, means once you provide the content in object creation and we can't change
+
+
+API-- 

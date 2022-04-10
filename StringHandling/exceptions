@@ -1,0 +1,27 @@
+1. checked(Compile time Exception)- and un-checked exceptions (runtime exceptions)
+
+
+Exceptions are basically 3 types: 
+Compiletime excepiton and runtime exception and Error
+Exception: 2 types: Checked Exceptions(
+Checked exceptions will check at compile time will called as checke
+those exceptions are exetended dirctyly from Excpeiotn class then those c
+
+ and Unchecked excepiton(
+Error 
+
+Pre-difined except
+
+1. Those exception classes inherte directly from exception classes wihch Compile time excep
+
+
+try
+catch
+finally//clean up//IOStreams
+
+throw//custome exception//Inner classes after Multithreading
+
+//handle exception in method overriding
+throws
+
+Outoffmemory

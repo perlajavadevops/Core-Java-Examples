@@ -1,0 +1,13 @@
+abc abc reddy 
+
+abc abc reddy
+
+String litterla
+String s = "Mahesh";
+new Keyword
+
+Demo de = new Demo();
+String s = new String("abc");
+
+2. Immutable class were we can't change the value of string once you have defined
+

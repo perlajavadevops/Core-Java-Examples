@@ -1,0 +1,29 @@
+String is its collection of sequence character is s
+why is string as object?
+
+"Manasi"  -->
+=====
+String class
+
+==========
+1. String is final class
+How to create String objects:
+2 wys to string objects
+1. By using String litlers
+
+String s1 = "Hi"//will be by SCP
+String s2 = "Hi"
+String s3 = "hi";
+
+//String Constant Pool:(SCP): 
+
+2. by new keyword
+
+==================
+StringBuffer and StringBuilder
+==========
+1. We can't modify once we created the string
+2. String is not thread safe i.e multiple threads can access at a time
+
+1. StringBuffer
+2. StringBuilder --> thread safe //Multithreading -- synchronized

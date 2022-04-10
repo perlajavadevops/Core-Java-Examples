@@ -1,0 +1,20 @@
+Laung
+=========
+methds, vari, dat.
+
+API: Application Programming Interface( 
+
+string: collections of sequence chara is ntoh string i.e Roshmi, Perla,  
+String is a class in java( sun String object)
+String class is final in java
+String is immutable class
+
+String s1 = "Reddy" --> "Perla"
+====================================
+How to create String object:
+1. by String literal ex: String s1 = "Hello"
+2. by new keyword ex: String s2 = new String("Hi");
+
+String Constant Pool: 
+
+1. String is immutable and String not thread safe( Multithreading )

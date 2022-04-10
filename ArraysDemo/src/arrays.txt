@@ -1,0 +1,39 @@
+1. Arrays will store only same type of data(homogeneous)  
+2. Arrays size is fixed in the nature. i.e 4 (arrayindexoutofmemory)
+3. we can 1D,2D
+4. Arrays index will start from '0'
+
+int[] arr = new int[2];//size 2 0,1
+2-->
+
+
+4 size --> 1,2,3,4 
+0,1,2,3
+
+5. to check array length(size) java has give one property called 'length'
+6. Arrays can mi
+7. Memory issues (1000) (1000*2)T
+=====================
+Collections Framework -->ArrayList
+
+===========================================
+1. How to create arrays in java?
+Manipulatio? creating and updating reading deleting
+new keywo===
+
+=============================
+API: Application programming interface(Predefined)
+API:(Readymate sution
+
+"Manasi" == "Manasi"
+equals()//true otherwise False
+ArrayList
+classes, interface and some other Enumes avail
+
+String Handling:
+Enumes
+Input/Output
+Exceptional Handling
+Inner classes
+Multithreading
+Collections Framework

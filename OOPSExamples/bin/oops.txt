@@ -1,0 +1,70 @@
+Inheritance: 
+what is inheritance? (IS-A relationship)
+parent class(super) child class(sub)
+
+
+Benz(E, C) --  Car -->BenzEclass is a Car
+
+
+Parent is Childrens 
+types of inheritance?
+5 types inher
+1.single inheritance: 
+Parent--> to--> child
+2. Multilevel inheritnace: Grandparent -- Parents --child
+3. Hierarcle hiner Parents --> 
+4. Multiple inheritance: 
+
+Father and Mother
+
+Child
+
+Multiple inherinatc is not possible when we use class
+Interface --> multiple 
+
+HybridInheritnace:
+
+
+Parent --> Child1 and Child2
+			
+			SubChild1	SubChild2
+			
+			      SubSubChild3
+extends keyword
+
+
+super keyword: it will immediate parent class object
+1. we can super keyword to different parent class varialbes and sub class varialbes
+2. we can use super keyword for calling super class methods
+3. we can user super() constructor 
+//Abstraction(Poly)
+this keyword: it is current class object
+
+compile time poly and runtime poly:
+
+Runtime Poly
+Abstraction: 
+
+Ex: Mobile 
+2 ways in java:
+1. abstract class( Partial abstraction)(0-100%)
+   1. the class which defined with abstract keyword we will as abstract class
+   2. we can define abstract method(Abstract methods does not have method body)
+   3. abstract method implementation must provided by sub class.
+   4. can have concrete methods(which we have a body will as concrete method in abstract class) and constructors and normal variables 
+   5. we can not create object directly for abstract class(by through subclass only we can create an object of abstract class)
+   6. Abstract classes does not support multiple inheritance.
+   
+2. interface (Fully abstraction)
+	1.  the interface which defined with 'interface' keyword we will as Interface.
+	2. We can have only public abstracts methods
+	3.abstract method implementation must provided by sub class.
+	4. implements keyword to maintain a relationship (IS-A).
+	5. interface will also support multiple inheritance.
+	6. We can't create a object directly for the inter(
+	7. Interface does not have any constructor or concrete methods
+	8. Interface can have public static final varialbes
+	9. from java8 onwards, interface will have default methods
+	10. functional interfaces( from java8)
+	
+Runtime Poly: Dynamic Method Dispatch

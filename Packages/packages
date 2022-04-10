@@ -1,0 +1,24 @@
+//to avoid naming collision
+//2. with in the same package we can't have two public classes
+//3. package com;
+//4. package com.google;//
+//5. with in the package we can multiple classes and interface
+//6. Pre-defined packages 
+
+
+srinivas.com//com.srinivas//
+srinivas.in
+
+//Access modifiers: default, private, protected, public
+//Encapsulation
+//Enums
+
+//private: private variables and method scope will be with in the class
+//default: default methods and variables scope will be with in the package.
+//protected: proctected members scope will be with in the package and outside(package class or class)that too by through sub class only.
+
+
+
+//Encaspulation: Hiding the data means data will secure and 
+
+1. single unit 

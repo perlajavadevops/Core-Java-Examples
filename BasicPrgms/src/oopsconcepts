@@ -1,0 +1,45 @@
+Polymorphims
+-- object //poly is nothing but one object can expose the behaviour into different ways(routes).
+-- 2 types: compli time and Runtime poly
+			
+			Method overloading is comes under complie time poly
+			
+			
+			Implementation
+			
+			functionality 
+			
+Abstr is hiding the implementation and showing functionality to the end user.
+
+1. Abstract class(
+
+2. Interface
+
+50%
+
+1. 0-Arguments same like default con
+2. Parameterized constr
+
+
+============
+1. Constr must be same class name
+2. 
+3. Construc will invoke at time of object creation
+4. Constroctor can overloaded. 1. Paremerters should different or no of agruments
+5.this is used to differentiat local and global instance varaialbles
+6. this keyword is nothnig current class object
+7. this key will be used with in the class and can't use for static memebers
+8. this can be object level uses
+9 by using this() cons we can achive contr chaining
+10. this() con must be the first statement
+11. Method overlaoding?
+	method name should same but the paramerts must be different
+	we can achive me over with in class only 
+	M O: 1. No.of arguments
+		 2. by chnaing the parameters datypes
+		 		add(int, int)
+		 		add(int, long)
+		 		add(long, int) //
+		 		add(float, int)
+		 		//Code optimization and code resuabality 			
+			 
