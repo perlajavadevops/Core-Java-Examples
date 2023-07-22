@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -44,9 +45,26 @@ class PriceComparator implements Comparator<Product>{
 	}
 	
 }
+
+class HighToLowPriceComparator implements Comparator<Product>{
+	//HighToLow
+		@Override
+		public int compare(Product o1, Product o2) {
+			if(o2.getPrice()>o1.getPrice()){
+				return 1;
+			}else if(o2.getPrice()<o1.getPrice()){
+				return -1;
+			}else{
+				return 0;
+			}
+		}
+		
+	}
 public class ProductHashSet {
 
 	public static void main(String[] args) {
+		
+		//Product(customerReview, newArraivals, price,features)
 		Product product1 = new Product("3 Star", "MultiColour", 900.00, "Good");
 		Product product2 = new Product("2 Star", "SingleColour", 400.00, "Average");
 		Product product3 = new Product("5 Star", "GreenColour", 200.00, "Excellent");
@@ -60,6 +78,7 @@ public class ProductHashSet {
 		
 		ArrayList<Product> list = new ArrayList<Product>(al);
 		
+		//Collections.sort(list, new CustomerReviewComparator());
 		
 		list.sort(new CustomerReviewComparator());
 		System.out.println("==========Sorting based on Customer Reviews=========== ");
@@ -70,7 +89,7 @@ public class ProductHashSet {
 		}
 		
 		list.sort(new PriceComparator());
-		System.out.println("=============Sorting based on Price=========== ");
+		System.out.println("=============Sorting based on Low to High Price=========== ");
 		itr1 = list.iterator();
 		while(itr1.hasNext()){
 			Product product = itr1.next();
@@ -85,5 +104,20 @@ public class ProductHashSet {
 			System.out.println(product.toString());
 		}
 		
+		list.sort(new NewArraivalsComparator());
+		System.out.println("==============Sorting based on New Arraivals============= ");
+		itr1 =  list.iterator();
+		while(itr1.hasNext()){
+			Product product = itr1.next();
+			System.out.println(product.toString());
+		}
+		
+		list.sort(new HighToLowPriceComparator());
+		System.out.println("==============Sorting based on HighToLowPriceComparator============= ");
+		itr1 =  list.iterator();
+		while(itr1.hasNext()){
+			Product product = itr1.next();
+			System.out.println(product.toString());
+		}
 	}
 }

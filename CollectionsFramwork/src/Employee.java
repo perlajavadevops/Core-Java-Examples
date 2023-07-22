@@ -1,4 +1,4 @@
-public class Employee implements Comparable<Employee>{
+public class Employee /* implements Comparable<Employee> */ {
 
 	public int empNo;
 	public String name;
@@ -44,8 +44,6 @@ public class Employee implements Comparable<Employee>{
 		this.salary = salary;
 	}
 
-	
-	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -89,23 +87,18 @@ public class Employee implements Comparable<Employee>{
 
 	@Override
 	public String toString() {
-		return "Employee [empNo=" + empNo + ", name=" + name + ", phoneNumber="
-				+ phoneNumber + ", salary=" + salary + "]";
+		return "Employee [empNo=" + empNo + ", name=" + name + ", phoneNumber=" + phoneNumber + ", salary=" + salary
+				+ "]";
 	}
 
-	@Override
-	public int compareTo(Employee o) {
-		//return name.compareTo(o.name);
-		if(salary>o.getSalary()){
-			return 1;
-		}else if(salary<o.getSalary()){
-			return -1;
-		}else{
-			return 0;
-		}
-	}
-	
-	
-	
-	
+	/*
+	 * @Override public int compareTo(Employee o) { // return
+	 * name.compareTo(o.name);
+	 * 
+	 * if (empNo > o.getEmpNo()) { return 1; } else if (empNo < o.getEmpNo()) {
+	 * return -1; } else { return 0; }
+	 * 
+	 * }
+	 */
+
 }

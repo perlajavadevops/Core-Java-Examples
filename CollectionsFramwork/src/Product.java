@@ -1,5 +1,5 @@
 
-public class Product {
+public class Product {//POJO 
 
 	private String customerReview;
 	private String newArraivals;

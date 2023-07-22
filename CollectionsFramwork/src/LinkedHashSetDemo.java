@@ -12,7 +12,7 @@ public class LinkedHashSetDemo {
 		set.add("Karthik");
 		set.add("Dhatrika");//entry <k,v>
 		set.add("Dhatrika");
-		
+		set.add(null);
 		Iterator<String> itr = set.iterator();
 		while(itr.hasNext()){
 			System.out.println(itr.next());
