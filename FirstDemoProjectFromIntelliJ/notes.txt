@@ -1,0 +1,117 @@
+Last Session:
+1. IntelliJ IDEA
+2. Data types...
+
+byte:
+Range: -127 to 127
+Memory: 1 byte, 0
+
+short:
+Range: -32762 to 32762..
+Memory: 2 byte, 0
+
+int:
+Memory: 4 byte, 0
+
+long:
+Memory: 8 bytes, 0
+float:
+Memory: 4 byte, 0.0
+
+double:
+Memory: 8 bytes, 0.0
+
+char:
+Memory: 2 byte, space( )- "\u0000"
+Unicode Characters System
+ASCII:
+boolean:
+Memory: 2 byte, false
+
+
+Static memebers can call by classname from outside class
+With in the class can call direclty without classname and with classname
+
+
+Create progm with static and access them outside class
+create progm with instances var and create object and access them?
+
+
+Tomorrows: COntroll statem, loops statemn, switch statement
+
+//if, else, switch, break, continue - Decision Making Stamem
+//logical: OR (||) and AND (&&)
+
+if:
+
+    if(condition){
+        statements...
+    }
+
+else:
+    if(condition){
+           statements...
+    } else{
+
+    }
+if-else-if:
+    if(condition){
+           statements...
+    } else if(condition){
+
+    } else{
+
+    }
+switch:
+  1. Will be supported for every data types: int, float, double, long, short, byte, boolean, char
+  2. till java 6 version this switch is not supported Strings.
+  Stantx:
+
+        Ex: week names: SUN, MON, TUE, WEN, THUR, FRI, SAT
+
+        switch(expression){
+            case condition(value1):
+                ....
+            case condition(value1):
+                ....
+            default:
+                .....
+
+        }
+Loops:
+
+// int i =0; i++  ++i
+//Incremental stemnt: post increment and pre increment
+                       //i--              --i
+//decremental stemnt: post decrement and pre decrement
+
+ for loop:      //startin   //condiition stat  // increement or decrement statements
+    sytanx: for(stet 1: state 2: stat3)
+
+ while:
+    int i =0;
+    while(statemen2){
+
+        i++ or ++i
+    }
+
+ do-while:
+
+   int i = 0
+   do{
+     syso...
+     ...
+     ..
+
+   }while(statemen2);
+
+//Loops, condi, switch, debugging with IntelliJ, Logical(|| and &&), Incememntationa nd decrement operators
+// int i  =2;
+
+//write a program to print prime number or not? 2
+// int i = 252
+//write a pgrm to print given number is amstrong or not? 153 => 13
+//write a program to print fibonice number... 0,1,1,2,3,5,8,13
+// Factorial number
+//Palindrome 252 -> 252
+// Operator overloadings in java,
