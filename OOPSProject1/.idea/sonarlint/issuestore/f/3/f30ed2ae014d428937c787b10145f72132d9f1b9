@@ -1,0 +1,17 @@
+
+0
+java:S1220""Move this file to a named package.
+Z
+java:S1854"=Remove this useless assignment to local variable "customer3".(Ê›¤À8Õ´©‹ 1
+Y
+java:S1854"=Remove this useless assignment to local variable "customer2".(§‘ò'8Õ´©‹ 1
+_
+java:S1854"=Remove this useless assignment to local variable "customer1".(…­Óÿÿÿÿÿÿ8Ö´©‹ 1
+P
+java:S1481".Remove this unused "customer1" local variable.(…­Óÿÿÿÿÿÿ8ªÿ©‹ 1
+J
+java:S1481".Remove this unused "customer2" local variable.(§‘ò'8«ÿ©‹ 1
+K
+java:S1481".Remove this unused "customer3" local variable.(Ê›¤À8¬ÿ©‹ 1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(êôºµ8Ù¢‹ 1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ôä˜Ñıÿÿÿÿ8‘è£‹ 1

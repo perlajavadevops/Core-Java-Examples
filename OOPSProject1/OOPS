@@ -1,0 +1,70 @@
+What is operator overloading?
+- + / * ==
+
++ is the only 1 oper overl
+
+In b/w numbers if we use + it will act as addition. ex: 8+8 = 16
+In b/w Strings if we use + it will act as contination. ex: "Siri"+"Dhatrika" = SiriDhatrika
+
+Ex: 8+8 = 16
+"Siri"+"Dhatrika" = Siri Dhatrika
+1+1+"Dhatrika"   =
+"Dhatrika"+1+1   =
+(1+1)+"Dhatrika" =
+"Dhatrika"+(1+1) =
+"Dhatrika"+(1+1)+"Siri"+23+24=
+
+
+What is Operators and Operands?
+
+
+OOPS: Object Oriented Programming System: C++, Java, Python, C#,Objective-C, PHP, JavaScript
+POPS: COBOL, C, BASIC, PASCAL, C++
+EX: Pen or chair or animals or human Logical Object
+
+What is Object?: The object can be either will exist logical or physically
+Ex: Physicallly Oj: Laptop, Animals, Chair, Pen, Items...
+    Logical Oject: MS WORD, etc....
+The objects contains 3 characterstics: Identity, Behiour(actions), Properties (data) or state
+1111,
+Ex: Dog dog2 = new Dog();//10101
+ Dog dog1 = new Dog();//2202
+
+1. object is instance of an class.
+What is class?
+  contains: Constro, Data (fields), methods, blocks, nested class
+
+Constructor: Special method in java.
+
+Naming Conventions:
+Class: Demo ex: Exception or Thread
+Interface: Ex: Runnable
+Method: println(), actionPerformed()
+Variable:
+Constructors:
+Constants: static final PAN_CARD = "PANCARD", PANCARD, STATUS,
+PACKAGES: com.google
+
+Java Comments:
+Multiline comment:
+/*
+
+*/
+
+Single line Comment:
+//
+
+
+What is
+Ex: class A{
+
+
+    }
+
+How many types of Constructors?
+1. Default Constru
+    Purpose:
+        Java Compiler will add in our .class
+2. Paramete
+
+// 
