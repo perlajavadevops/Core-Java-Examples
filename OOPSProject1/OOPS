@@ -67,4 +67,107 @@ How many types of Constructors?
         Java Compiler will add in our .class
 2. Paramete
 
-// 
+//
+javap - java profile
+JDecompiler
+
+Constrcot overloading: More than 1 constructor if you have in your class defination will called as constroctor overloading
+
+they some rules:
+
+1. Constructor should same
+2. Constructor parameters should differernt data types or no of arugments
+Ex:
+   A{
+        //0- param
+        A(){
+
+        }
+        //1-param - int param
+        A(int a){
+
+        }
+
+         //1-param  long, boolean, String
+         A(long a){
+
+         }
+         A(int a, int b){
+
+         }
+
+   }
+
+10.0, 90.0 -- by default consider as double java compiler
+10, 20, 30 --> by default con as int in java(compiler)
+
+10L -- automatic type promotion - up-casting
+int-long-double-float
+
+byte <-- short <-- int
+(short)10 -> explicityl de-promotion - down casting
+
+this keyword:
+ this? --> it will refer to current class object (reference)
+
+ 1.  using this keyword we can differentiate the instnace variables and (contr, method ) parameter variables.
+ 2.  we can also use this keyword as a parameter in the contructors.
+
+ 3. this() contructor we can also invoke one cn from another con.
+ 4. using this keyword we can call instance methods in the class
+
+
+Method:
+
+What is method? also function? expose the behivour (action) an object
+
+Types methods? 1. instance method (non-static method) 2. static method.
+
+ex: static methods
+
+public static void n(){
+
+}
+
+A.n();//
+
+
+
+ex: instance method:
+public void n(){
+
+}
+
+What is Method Overloading?
+with in the class multiple mehtods having same name but with different paratermest list.
+Adva --> increse readability of program.
+
+Rules: 1. different or by changing data types
+        2. having no of arguments in method defination
+
+Method Overloading and this keyword with methods
+
+Inheritance or Is-A-Relationship.
+
+Single inher
+multi level
+heriac
+Multiple inh
+hybrid inher
+
+dynamic problme
+extends, implements
+
+ 
+create class and achive constro over
+is java is having copy constructor or not?
+
+can we call sub class(child) constructor from super(parent) class
+
+2 types blocks in java
+
+1. Instance (initializer) block
+2. static block
+
+Method Overriding:
+u must maintain the relationship --> Inheritance
