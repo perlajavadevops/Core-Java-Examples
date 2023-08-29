@@ -1,0 +1,11 @@
+
+7
+java:S1220""Move this file to a named package.8¤›ë®¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(È¶­ûøÿÿÿÿ8è‘í®¡1
+T
+java:S1854"7Remove this useless assignment to local variable "st2".(æ¯¾â8Šå”¯¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ä”Ý…ýÿÿÿÿ8±Äí®¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÕŸ»àùÿÿÿÿ8²Äí®¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰¥†àùÿÿÿÿ8ÏŠ“¯¡1
+E
+java:S1481"(Remove this unused "st2" local variable.(æ¯¾â8‘å”¯¡1
